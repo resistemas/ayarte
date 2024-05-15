@@ -42,9 +42,10 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation ("androidx.core:core-splashscreen:1.0.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation ("androidx.fragment:fragment-ktx:1.7.1")
+    implementation ("androidx.fragment:fragment-ktx:1.2.5")
     implementation ("com.google.android.material:material:1.2.1")
 }

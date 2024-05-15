@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.Ayarte_app" parent="Base.Theme.Ayarte_app" />
+    
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_ayarte</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Theme.Ayarte_app</item>
+    </style>
 </resources>
